@@ -1,0 +1,111 @@
+Lab Work Level 2 — Summary
+
+NAME: cubic_normal
+  trend: cubic, noise: normal
+    n        : 1000
+    mean     : 0.35206565582232546
+    median   : 0.3208366755024786
+    var      : 1.0995603049795561
+    std      : 1.0485992108425202
+    min      : -3.1902182120690727
+    max      : 3.8871289196547214
+    skew     : 0.13377233141640324
+    kurtosis : -0.03467508745040959
+  csv: outputs\csv\cubic_normal.csv
+  plot: outputs\plots\cubic_normal.png
+  noise_hist: outputs\plots\cubic_normal_noise_hist.png
+  trend_plot: outputs\plots\cubic_normal_trend.png
+
+NAME: cubic_uniform
+  trend: cubic, noise: uniform
+    n        : 1000
+    mean     : 0.3473288220936331
+    median   : 0.38177594774652723
+    var      : 1.4443669002823605
+    std      : 1.2018181644002393
+    min      : -1.9633530762623614
+    max      : 3.0534397636042026
+    skew     : -0.03020433727974065
+    kurtosis : -1.0376235015042172
+  csv: outputs\csv\cubic_uniform.csv
+  plot: outputs\plots\cubic_uniform.png
+  noise_hist: outputs\plots\cubic_uniform_noise_hist.png
+  trend_plot: outputs\plots\cubic_uniform_trend.png
+
+NAME: linear_normal
+  trend: linear, noise: normal
+    n        : 1000
+    mean     : 0.5067847724968482
+    median   : 0.5025289234269781
+    var      : 0.32841780274582877
+    std      : 0.5730774840681047
+    min      : -1.28519431733214
+    max      : 2.227629501301705
+    skew     : -0.013441122919155161
+    kurtosis : -0.04564295232104376
+  csv: outputs\csv\linear_normal.csv
+  plot: outputs\plots\linear_normal.png
+  noise_hist: outputs\plots\linear_normal_noise_hist.png
+  trend_plot: outputs\plots\linear_normal_trend.png
+
+NAME: linear_uniform
+  trend: linear, noise: uniform
+    n        : 1000
+    mean     : 0.4694962633765018
+    median   : 0.489693961535219
+    var      : 0.40561484915451324
+    std      : 0.6368789909822063
+    min      : -0.9086932184774009
+    max      : 1.9190526175972384
+    skew     : 0.02314439561750512
+    kurtosis : -0.8285155124407217
+  csv: outputs\csv\linear_uniform.csv
+  plot: outputs\plots\linear_uniform.png
+  noise_hist: outputs\plots\linear_uniform_noise_hist.png
+  trend_plot: outputs\plots\linear_uniform_trend.png
+
+NAME: real_Купівля
+  trend: real, noise: real
+    n        : 348
+    mean     : 36.48076436781609
+    median   : 39.2
+    var      : 19.134818723568184
+    std      : 4.374336375219467
+    min      : 27.7
+    max      : 41.5
+    skew     : -0.7641209705021759
+    kurtosis : -0.9689769710450524
+  csv: outputs\csv\real_Купівля.csv
+  plot: outputs\plots\real_Купівля.png
+  hist: outputs\plots\real_Купівля_hist.png
+
+NAME: real_Продаж
+  trend: real, noise: real
+    n        : 348
+    mean     : 33.861781609195404
+    median   : 39.9
+    var      : 156.88343946801814
+    std      : 12.525311950926337
+    min      : 0.0
+    max      : 41.99
+    skew     : -2.14771593881907
+    kurtosis : 3.133112696611166
+  csv: outputs\csv\real_Продаж.csv
+  plot: outputs\plots\real_Продаж.png
+  hist: outputs\plots\real_Продаж_hist.png
+
+NAME: real_КурсНбу
+  trend: real, noise: real
+    n        : 348
+    mean     : 29.06374942528736
+    median   : 29.2549
+    var      : 125.33711978077777
+    std      : 11.195406190968587
+    min      : 0.0
+    max      : 36.5686
+    skew     : -1.942123486251294
+    kurtosis : 2.527079241022569
+  csv: outputs\csv\real_КурсНбу.csv
+  plot: outputs\plots\real_КурсНбу.png
+  hist: outputs\plots\real_КурсНбу_hist.png
+
