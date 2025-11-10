@@ -1,0 +1,26 @@
+Звіт по лабораторній роботі №6 — Експоненційне згладжування
+
+Вхідні дані: Time-series---lab\labs\lab6\Oschadbank (USD).xls
+
+Кількість точок: 348
+
+
+--- Метрики (Fitted) ---
+
+Simple_fitted: MAE=0.1262, MSE=0.2007, RMSE=0.4480, R2=0.9895
+
+Holt_fitted: MAE=0.1427, MSE=0.1994, RMSE=0.4465, R2=0.9896
+
+HW_fitted: MAE=0.1470, MSE=0.1925, RMSE=0.4387, R2=0.9899
+
+
+--- Метрики (Forecast vs Real) ---
+
+Simple_forecast: MAE=3.6254, MSE=30.0996, RMSE=5.4863, R2=-0.5776
+
+Holt_forecast: MAE=12.0526, MSE=149.9539, RMSE=12.2456, R2=-6.8593
+
+HW_forecast: MAE=9.5229, MSE=94.3852, RMSE=9.7152, R2=-3.9469
+
+
+Найкраща модель за MSE (на fitted): HW (MSE=0.1925)
